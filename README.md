@@ -66,12 +66,32 @@
 
 ---
 
+## Routes
+- le route est un réseau directement connecté au routeur
+- statique : manuellement configurée
+   - avantages : economies et sécurité
+   - inconvénients : maintenance plus lourde et configuration compliquée.
+- Dynamique : route apprise automatiquement par un protocole de routage
+   - avantages : maintenance réduite, flexible et réagit automatiquement
+   - inconvénients : initialisation difficile, sécurité et bande passante élevée.
+
+---
+
+## IP public et privé
+
+### IP privé 
+- c'est un adresse locale, non routable et doit être traduit pour communiquer vers l'exterieur.
+
+### IP public 
+- c'est une adresse unique nécessaire pour communiquer sur le internet, routable et assignée par IANA.
 ## IPv4 et IPv6
 
 ### IPv4
 - 32 bits, notation décimale (ex : `192.168.1.1`).
 - Limité en espace, utilise NAT pour compenser.
 - Sécurité : IPSec externe.
+
+---
 
 ### IPv6
 - 128 bits, notation hexadécimale (ex : `fe80::1`).
@@ -105,6 +125,7 @@
 ---
 
 ## VLAN
+- il segmente un réseau physique en plusieurs réseaux logiques, plus efficace.
 - **Avantages** : Sécurité, optimisation de la bande passante, administration simplifiée.
 - **Protocole** : Tag VLAN via 802.1Q.
 
@@ -113,13 +134,20 @@
 ## Fibre optique vs Paire torsadée
 
 ### Fibre optique
+- ces sont des câbles constituées de fibre en verre ou en plastique afin de transmettre des données sous forme de lumière.
 - **Avantages** : Haute vitesse, longue distance, sécurité, résistance.
 - **Inconvénients** : Coût élevé, installation complexe.
 
 ### Paire torsadée
+- enroulement en helice de chaque paire de fils
+- catégories : indique la vitesse et la capacité de transmission du câble, cat 5 (1000Mbits/s), cat 6 (25000Mbits/s) et cat 7 (10Gbits/s)
+- Blindage: protège le cable des interferences électromagnetiques. F (blindage par feuille AL) et S (blindage par tresse Cu).
 - **Avantages** : Coût faible, installation facile.
 - **Inconvénients** : Distance limitée, moins rapide.
 
+### Cables coaxial
+- **Avantages** : Blindé
+- **Inconvénients** :  doit passer de machine en machine et fragile.
 ---
 
 ## Configuration manuelle du réseau
@@ -130,14 +158,7 @@
 
 ---
 
-## Les Routes
-- Route Statique : manuellement configurée
-   - Avantages : economies et sécurité
-   - inconvénients : maintenace plus lourde et configuration compliquée
-- Route Dynamique : Route apprise automatiquement par un protocole de routage
-   - avantages : maintenance réduite, flexible et réagit automatiquement
-   - inconvénients: initialisation difficcile, sécurité et bande passante plus élevée.
 
- ---
+
 
 
