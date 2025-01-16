@@ -130,5 +130,14 @@
 
 ---
 
+## Les Routes
+- Route Statique : manuellement configurée
+   - Avantages : economies et sécurité
+   - inconvénients : maintenace plus lourde et configuration compliquée
+- Route Dynamique : Route apprise automatiquement par un protocole de routage
+   - avantages : maintenance réduite, flexible et réagit automatiquement
+   - inconvénients: initialisation difficcile, sécurité et bande passante plus élevée.
+
+ ---
 
 
