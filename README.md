@@ -53,6 +53,12 @@
 
 ---
 
+### Dual-stack
+- le dual-stack : est une méthode permettant de mettre ensemble le IPv4 et IPv6, c'est à dire ils coexistant mais sans aucune compatibilité.
+- exemple : une machie configurée en IPv4 ne peut pas communiquer avec IPv6
+
+---
+
 ## Chiffrement
 - **Symétrique** : Même clé pour chiffrer/déchiffrer.
 - **Asymétrique** : Clés publique/privée.
