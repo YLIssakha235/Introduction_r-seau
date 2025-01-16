@@ -1,6 +1,7 @@
 # Concepts de réseaux et protocles 
 
-### le model OSI : est une référence universelle pour comprendre et développer les réseaux. Elle est divisée en 7 couches, chaque couche à un rôle spécifique.
+### Le Model OSI  
+il est une référence universelle pour comprendre et développer les réseaux. Elle est divisée en 7 couches, chaque couche à un rôle spécifique.
 
 ### les differentes couches 
 - couche 1 : Physique
