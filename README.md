@@ -167,8 +167,27 @@
 - **Masque de sous-réseau** : `255.255.255.0`
 - **Passerelle par défaut** : `192.168.1.1`
 - **Serveurs DNS** : `8.8.8.8`
+- adresse MAC
 
 ---
+
+### ref 
+- wifi IEEE 802.11
+- Ethernet IEEE 802.3
+
+---
+
+### internet
+- cicuit switching : operateur télephonique
+- packet switching : plusieurs chemin
+- backbones : ce sont les cables sous-marins, des fibres optiques et d'equipements de routage qui connectent les principaux hubs d'internet à travers le monde.
+- ISP : fournisseurs d'accès d'internet.
+- AS : autonomius systemes, groupe de reseau sous une meme administration avec un routage unique. (BGP).
+- IXP : internet exchange points, ce sont des lieux physuques ou plisieurs réseaux se connectent pour echanger du trafic.
+- Transit : il fait reference à un service ou un réseau privé paie un autre pour accéder à internet.
+- Peering : est une relation d'echange entre deux reseaux sans transaction financiere afin d'optimiser la performance et reduire les couts.
+- Peering public : realise via des points d'echange physique (IXP) ou plusieurs reseaux peuvent se connecter et echanger du trafic.
+- Peering privé : Deux reseaux s'accordent pour interconnecter leurs infrastructures dans un lieu specifique.
 
 
 
