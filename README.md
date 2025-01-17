@@ -90,12 +90,24 @@
 - 32 bits, notation décimale (ex : `192.168.1.1`).
 - Limité en espace, utilise NAT pour compenser.
 - Sécurité : IPSec externe.
+- couche 3
 
 ---
 
 ### IPv6
 - 128 bits, notation hexadécimale (ex : `fe80::1`).
 - Espace illimité, IPSec intégré, performances améliorées.
+- couche 3
+
+### MAC
+- l'adresse MAC est une adresse physique unique gravée sur la carte réseau non modifiable (fixe et attribuée par le fabricant)
+- 48 bits, notation hexadecimale, divisée par : ou - ( ex : ´00:1A:2B:3B:4D:5E´)
+- couche 2
+
+### PORT 
+- il est un identifiant numérique qui spécifie un service ou une application. 
+- numéro entier ( 0 à 65535)
+- couche 4
 
 ---
 
